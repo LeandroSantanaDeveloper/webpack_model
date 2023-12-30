@@ -1,0 +1,23 @@
+
+webpack.js.org
+
+
+Para iniciarlizarmos a inatalação e configuração do Webpack iniciamos com o npm init -y  => ele cria o package com as informações do projeto
+
+
+instalar as dependencias:
+
+npm i --save-dev @babel/preset-env @babel/core @babel/cli babel-loader webpack webpack-cli
+
+npm i core-js regenerator-runtime
+
+
+após instalar tudo isso, eles aparecerão nas dependencias do package.json.  A pasta packge-lock.json foi criada e o node modules também !
+
+
+criar o arquivo webpack.config.js e fazer a configuração padrão
+
+
+criar a pasta src com o arquivo de entrada, no caso simples: index.js
+
+indicar o "entry" no webpack.config.js para acessar o arquivo de entrada index.js:  entry: './src/index.js'
